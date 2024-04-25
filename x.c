@@ -751,7 +751,7 @@ fullscreen(const Arg *arg)
 	XEvent ev;
 
 	memset(&ev, 0, sizeof(ev));
-	
+
 	ev.xclient.type = ClientMessage;
 	ev.xclient.message_type = xw.netwmstate;
 	ev.xclient.display = xw.dpy;
